@@ -1,3 +1,4 @@
+import Botao from '../Botao'
 import CampoTexto from '../CampoTexto'
 import ListaSuspensa from '../ListaSuspensa'
 import './Formulario.css'
@@ -20,6 +21,7 @@ const Formulario = () =>{
                 <CampoTexto label="Nome" placeholder="Digite o nome do Pokémon"/>
                 <CampoTexto label="Nature" placeholder="Digite a Nature do Pokémon"/>   
                 <CampoTexto label="Imagem" placeholder="Digite o endereço da imagem"/>
+                <Botao>Criar Card</Botao> 
             </form>
         </section>
     )
