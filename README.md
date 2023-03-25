@@ -1,2 +1,2 @@
-# Pok-Register
+# Poke-Register
 Registre seus Pokémons capturados
