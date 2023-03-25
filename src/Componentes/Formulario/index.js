@@ -22,7 +22,7 @@ const Formulario = () =>{
         <section className="formulario">
             <form onSubmit={aoSalvar}>
                 <h2>Preencha os dados para criar o card do Pokemon Capturado </h2>
-                <ListaSuspensa label="Jogos"itens = {times}/>
+                <ListaSuspensa obrigatorio = {true}label="Jogos"itens = {times}/>
                 <CampoTexto obrigatorio = {true}label="Nome" placeholder="Digite o nome do Pokémon"/>
                 <CampoTexto obrigatorio = {true}label="Nature" placeholder="Digite a Nature do Pokémon"/>   
                 <CampoTexto label="Imagem" placeholder="Digite o endereço da imagem"/>
